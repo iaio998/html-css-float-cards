@@ -5,11 +5,11 @@
   font-family: "Fredoka", sans-serif;
 }
 .debug {
-  border: 1px solid black;
+  border: 1px solid transparent;
   margin: 20px;
   padding: 20px;
 }
-body {
+.container {
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -53,7 +53,7 @@ article {
   float: left;
   background-color: #0f0e17;
   margin: 20px 10px;
-  width: calc(100% / 3);
+  width: calc(100% / 3 - 20px);
   box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.322);
   /* text-align: left; */
 }
