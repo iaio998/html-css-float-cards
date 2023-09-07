@@ -19,6 +19,8 @@ header {
 }
 main {
   color: white;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 .write {
   border: 1px solid transparent;
@@ -44,14 +46,15 @@ main {
 }
 h1 {
   font-size: 3em;
-  font-family: fantasy;
   color: #e5316d;
 }
+
 article {
   float: left;
   background-color: #0f0e17;
   margin: 20px 10px;
   width: calc(100% / 3);
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.322);
   /* text-align: left; */
 }
 p {
